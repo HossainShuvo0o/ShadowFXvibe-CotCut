@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShadowFXvibe Cot Cut</string>
+    <string name="import_video">Import a video</string>
+    <string name="start_new_project">Start a new project</string>
+    <string name="trending_styles">Trending Styles</string>
+    <string name="save_to_gallery">Save to Gallery</string>
+    <string name="export_settings">Export Settings</string>
+    <string name="resolution">Resolution</string>
+    <string name="frame_rate">Frame Rate</string>
+</resources>

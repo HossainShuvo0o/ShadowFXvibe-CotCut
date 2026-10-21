@@ -1,0 +1,6 @@
+{
+  "name": "ShadowFXvibe Cot Cut",
+  "description": "Professional video editor and kinetic caption studio featuring ExoPlayer canvas, movable captions, multi-track timeline, transitions, keyframing, and HD/4K export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

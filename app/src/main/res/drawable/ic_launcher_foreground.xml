@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Motion trails / speed streaks in cyan -->
+    <path
+        android:pathData="M24,38 L36,38"
+        android:strokeWidth="3"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M20,48 L32,48"
+        android:strokeWidth="3.5"
+        android:strokeColor="#00F0FF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M26,58 L38,58"
+        android:strokeWidth="3"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Central Typography T with kinetic motion cut and gradient -->
+    <!-- Top bar of the T / Bangla matra -->
+    <path
+        android:pathData="M38,34 L82,34 C84,34 85,35 85,37 L85,42 C85,44 84,45 82,45 L40,45 C38,45 37,44 37,42 L37,37 C37,35 38,34 38,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="34"
+                android:endX="85"
+                android:endY="45"
+                android:type="linear">
+                <item android:color="#00F0FF" android:offset="0.0" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stem of T with motion angle cut -->
+    <path
+        android:pathData="M55,45 L65,45 L65,74 C65,77 63,79 60,79 L55,79 L55,45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="55"
+                android:startY="45"
+                android:endX="65"
+                android:endY="79"
+                android:type="linear">
+                <item android:color="#00E5FF" android:offset="0.0" />
+                <item android:color="#A855F7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Play/Kinetic motion arrow accent on right -->
+    <path
+        android:pathData="M69,54 L84,63 C85.5,64 85.5,66 84,67 L69,76 C67.5,77 66,76 66,74.5 L66,55.5 C66,54 67.5,53 69,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="54"
+                android:endX="85"
+                android:endY="76"
+                android:type="linear">
+                <item android:color="#A855F7" android:offset="0.0" />
+                <item android:color="#EC4899" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing dot accent representing typography point / accent -->
+    <path
+        android:pathData="M48,74 A4,4 0 1,1 48,74.01"
+        android:fillColor="#00F0FF" />
+</vector>
